@@ -20,9 +20,9 @@ bind c new-window -c "#{pane_current_path}"
 bind-key  j switch-client -n
 bind-key  k switch-client -p
 bind-key h previous-window
-bind-key Right previous-window
+bind-key Left previous-window
 bind-key l next-window
-bind-key Left next-window
+bind-key Right next-window
 bind ^a select-pane -t :.+
 bind-key x kill-pane # skip "kill-pane 1? (y/n)" prompt
 bind-key X kill-window 
